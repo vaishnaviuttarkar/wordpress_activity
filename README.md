@@ -64,14 +64,16 @@ During the WordPress setup, use the following database configuration:
 ## Stopping and Removing Containers
 
 To stop and remove the containers, run:
-
-- docker-compose down
+```sh
+docker-compose down
+```
 
 Viewing Logs
 To view logs from the WordPress container, use:
 
-- docker-compose logs wordpress
-
+```sh
+docker-compose logs wordpress
+```
 
 ### Conclusion
 
