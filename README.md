@@ -1,13 +1,13 @@
 ## Wordpress Activity!
 =========================================
 
-Create a Container 
-Install Apache Web Server or a Web server of your choice that supports PHP Execution.
-Install PHP Library
-Configure Apache Webserver to recognize PHP
-Wordpress will require MySQL 
-Install Wordpress  
-https://wordpress.com/
+- Pull Centos 7 Image. (you can decide any Linux Distribution also)
+- Create a Container 
+- Install Apache Web Server or a Web server of your choice that supports PHP Execution.
+- Install PHP Library
+- Configure Apache Webserver to recognize PHP
+- Wordpress will require MySQL 
+- Install Wordpress https://wordpress.com/
 
 Solution:
 
@@ -24,8 +24,11 @@ This project sets up a WordPress environment using Docker, complete with Apache,
 
 .
 ├── Dockerfile
+
 ├── docker-compose.yml
+
 ├── README.md
+
 
 ## Getting Started
 
